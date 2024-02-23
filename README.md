@@ -1,1 +1,1 @@
-![](https://github.com/KarenYisethPintoEspejo/practicaModeladoEnCaja/blob/main/img/ejercicio3.png)
+![](https://github.com/KarenYisethPintoEspejo/practicaModeladoEnCaja/blob/storage/img/ejercicio3.png.png)
