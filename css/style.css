@@ -26,9 +26,10 @@
 
 .header{
     width: 100%;
-    height: 100px;
+    height: 0;
     top: 0;
     position: absolute;
+    align-items: center;
 }
 
 .header #logo{
@@ -41,6 +42,7 @@
 
 
 .header .menu{
+    padding: 30px;
     width: 500px;
     height: 100%;
     justify-content: center;
@@ -48,7 +50,8 @@
     display: flex;
     left: 35%;
     position: absolute;
-    top: 18%;
+    top: 10%;
+    
 }
 
 .menu a{
@@ -58,7 +61,7 @@
     display: flex;
     position: relative;
     transition: 0.3s ease;
-    color: #000
+    color: #8e8e84;
 }
 
 
@@ -68,7 +71,7 @@
     width: 0%;
     height: 3px;
     bottom: 0;
-    background: #000;
+    background: #8b8b8b;
     transition: 0.3s ease;
 }
 
@@ -83,6 +86,7 @@
 }
 
 .idiomas{
+    padding: 7px;
     position: absolute;
     top: 45%;
     right: 20px;
@@ -94,13 +98,13 @@
     margin-left: 10px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #808080;
-    border: 1px solid #000;
+    background-color: #8b8b8b;
+    border: 1px solid #8b8b8b;
     color: #fff;
     cursor: pointer;
 
 }
 .idiomas button:hover{
-    background-color: #000;
+    background-color: #fff;
     color: #fff;
 }
