@@ -31,3 +31,35 @@ footer{
 footer p{
     margin-top: 9px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 0px;
+    min-height: calc(100vh - 160px);
+}
+
+.nav, .aside {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #bbbbbb;
+    text-align: left;
+    margin: 0px;
+}
+
+.main {
+    flex-grow: 2;
+    padding: 20px 1px;
+    background-color: #aaaaaa;
+    color: #000;
+    text-align: left;
+}
+
+.main h2{
+    margin-bottom: 10px;
+}
+
+.main p{
+    margin-top: 20px;
+}
