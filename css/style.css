@@ -37,4 +37,43 @@ body, html {
 }
 
 
+.box p {
+    font-size: 13px;
+    text-align: center; 
+    margin-bottom: 5px; 
+}
+
+.box p:not(:last-child) {
+    border-bottom: 1px solid #f1f1f1; 
+    padding-bottom: 10px; 
+}
+
+.box button {
+    margin-top: -10px; 
+    background-color: #f0f0f0;
+    color: #000;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 8px 60px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 12px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.box button:hover {
+    background-color: #ff7f50;
+    color: #f1f1f1;
+}
+
+
+.box .button-container {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
 
