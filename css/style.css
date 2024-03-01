@@ -172,7 +172,7 @@ article{
     border: 1px solid black;
     padding: 20px;
     box-sizing: border-box;
-    margin: 10px;
+    margin: 20px;
 }
 
 .primero .barradecarga{
@@ -262,5 +262,22 @@ article{
     padding: 10px;
 }
 
+.abajo{
+    margin: 30px;
+    background: #007bff;
+    height: 100vh;
+    padding: 10px;
+}
+
+.relleno{
+    margin: 10px;
+    background-color: #f0f0f0;
+    height: 80%;
+}
+
+.abajo h4{
+    font-size: 18px;
+    margin: 5px
+}
 
 
